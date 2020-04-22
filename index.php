@@ -7,8 +7,6 @@ require(__DIR__ . '/inc/classes/Article.php');
 require(__DIR__ . '/inc/data.php');
 
 
-
-
 //!récupérons la page demandée. Cette variable est envoyé en GET (dans la barre d'adresse : index.php?page=unePage)
 $page = filter_input(INPUT_GET, 'page');
 
