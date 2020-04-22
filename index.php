@@ -1,5 +1,13 @@
 <?php
 
+//!incluons la classe Article
+require(__DIR__ . '/inc/classes/Article.php');
+
+//!récupération des données
+require(__DIR__ . '/inc/data.php');
+
+
+
 
 //!récupérons la page demandée. Cette variable est envoyé en GET (dans la barre d'adresse : index.php?page=unePage)
 $page = filter_input(INPUT_GET, 'page');
