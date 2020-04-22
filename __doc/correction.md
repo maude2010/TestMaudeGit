@@ -46,6 +46,9 @@ Isolons le menu de droite dans un sous template
         - partial
             - aside.tpl.php
 
+### Faisons le découpage du fichier article.html (fourni dans la maquette)
+C'est la même méthodologie que pour index.php. Mais cette fois ci il suffit d'isoler le contenu html qui s'occupe de l'affichage d'un article
+
 
 
 
