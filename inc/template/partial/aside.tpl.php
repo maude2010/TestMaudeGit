@@ -35,6 +35,8 @@
 
         <?php
         //!pour tous les auteurs nous générons l'élément li qui va bien avec le bon lien et le bon libellé
+        //*la syntaxe "blablabla {$variable} blablabla" permet "d'économiser" une concaténation
+        
         foreach($dataAuthorsList as $authorId => $authorName) {
             echo "
             <li class=\"list-group-item\">
