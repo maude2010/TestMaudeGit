@@ -140,7 +140,7 @@ git checkout master
 #### Création de la boucle d'affichage des articles
 #### Dynamisation du partial article.tpl.php
 ##### Ne pas oublier que les propriété date et category sont privées. Il faut donc passer par des getter
-
+### Merge dans master
 
 
 
