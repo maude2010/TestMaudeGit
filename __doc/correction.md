@@ -36,4 +36,16 @@ Ne pas oublier de faire les require nécessaires pour appeler ces templates dans
 #### Isolons le template footer.php
 Même méthodologie que pour le header
 
+#### Nous souhaitons encore plus organiser/découper notre code
+Isolons le menu de droite dans un sous template
+- inc
+    - template
+        - header.tpl.php
+        - footer.tpl.php
+        - home.tpl.php
+        - partial
+            - aside.tpl.php
+
+
+
 
