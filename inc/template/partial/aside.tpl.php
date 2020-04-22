@@ -32,13 +32,19 @@
     <div class="card">
         <h3 class="card-header">Auteurs</h3>
         <ul class="list-group list-group-flush">
-        <li class="list-group-item">Maxime</li>
-        <li class="list-group-item">Anthony</li>
-        <li class="list-group-item">Alexandre</li>
-        <li class="list-group-item">Dario</li>
-        <li class="list-group-item">Julie</li>
-        <li class="list-group-item">Lucie</li>
-        <li class="list-group-item">Xavier</li>
+
+        <?php
+        //!pour tous les auteurs nous générons l'élément li qui va bien avec le bon lien et le bon libellé
+        foreach($dataAuthorsList as $authorId => $authorName) {
+            echo "
+            <li class=\"list-group-item\">
+                <a href=\"index.php?page=author&id={$authorId}\">
+                    {$authorName}
+                </a>
+            </li>";
+        }
+        ?>
+
         </ul>
     </div>
 
