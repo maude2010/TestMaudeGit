@@ -30,6 +30,10 @@ Nous avons créé la structure de dossiers adéquate pour pouvoir stocker les te
     - templates
 
 #### Isolons le template header.php
+Il faut lire le code html d'index.php, et déplacer les contenus qui nous interessent dans les bon template.
+
+Ne pas oublier de faire les require nécessaires pour appeler ces templates dans index.php
 #### Isolons le template footer.php
+Même méthodologie que pour le header
 
 
