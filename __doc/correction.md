@@ -143,8 +143,13 @@ git checkout master
 ### Merge dans master
 
 ## Etape 5 page article
-
+### récupération du bon article via son id
 ### modification du fichier article.page.php
+
+
+## Etape 6 dynamisation barre de nav
+
+
 
 
 

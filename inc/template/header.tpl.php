@@ -43,23 +43,14 @@
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         Menu <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- Cette partie va automatique être masquée en version mobile -->
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav ">
-          <li class="nav-item">
-            <a class="nav-link" href="#">TeamBack</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">TeamFront</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Collaboration</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ma Vie De Dev</a>
-          </li>
-        </ul>
-      </div>
+
+      <?php
+      //!nous avons isolé la navbar. ainsi nous pouvons la modifier en ayant moins peur de corrompre le fichier header.tpl.php
+      require(__DIR__ . '/partial/navbar.tpl.php');
+      ?>
+
+
+
     </nav>
     <section class="text-center">
       <h1>A la dérive</h1>
