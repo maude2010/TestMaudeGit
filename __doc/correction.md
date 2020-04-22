@@ -138,7 +138,8 @@ git checkout master
 ### Isolation du template d'un article
 
 #### Création de la boucle d'affichage des articles
-#### Dynamisation du partial article.Tpl.php
+#### Dynamisation du partial article.tpl.php
+##### Ne pas oublier que les propriété date et category sont privées. Il faut donc passer par des getter
 
 
 

@@ -18,17 +18,17 @@ require(__DIR__.'/inc/template/header.tpl.php');
 
 //!nous affichons le bon template en fonction de la page demandée
 if($page === 'article') {
-    require(__DIR__.'/inc/template/article.tpl.php');
+    require(__DIR__.'/inc/template/article.page.php');
 }
 elseif($page === 'author') {
-    require(__DIR__.'/inc/template/author.tpl.php');
+    require(__DIR__.'/inc/template/author.page.php');
 }
 elseif($page === 'category') {
-    require(__DIR__.'/inc/template/category.tpl.php');
+    require(__DIR__.'/inc/template/category.page.php');
 }
 else {
     //!incluons le template home.tpl.php
-    require(__DIR__.'/inc/template/home.tpl.php');
+    require(__DIR__.'/inc/template/home.page.php');
 }
 
 
