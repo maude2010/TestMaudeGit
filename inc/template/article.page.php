@@ -11,20 +11,31 @@
         <!-- Je dispose une card: https://getbootstrap.com/docs/4.1/components/card/ -->
         <article class="card">
           <div class="card-body">
-            <h2 class="card-title">Ivre, il refait tous les challenges en un week-end sans dormir.</h2>
+            <h2 class="card-title">
+              <?=$articleInstance->title?>
+            </h2>
             <p class="infos">
-              Posté par <a href="#" class="card-link"></a> le <time datetime="2017-07-13">13/07/2017</time> dans <a href="#"
-                class="card-link">#MaVieDeDev</a>
+              Posté par <a href="#" class="card-link">
+              <?=$articleInstance->author?>
+              </a>
+              le <time datetime="<?=$articleInstance->getDate()?>">
+              <?=$articleInstance->getDateFr()?>
+              </time>
+              dans
+              <a href="#" class="card-link">
+                #<?=$articleInstance->getCategory()?>
+              </a>
             </p>
-            <p class="card-text">Ou comment j'ai appris plein de choses en faisant une nouvelle fois tous les challenges
-              que j'avais loupé.</p>
+            <p class="card-text">
+              <?=$articleInstance->content?>
+            </p>
           </div>
         </article>
 
         <!-- Je met un element de navigation: https://getbootstrap.com/docs/4.1/components/pagination/ -->
         <nav aria-label="Page navigation example">
           <ul class="pagination justify-content-between">
-            <li class="page-item"><a class="page-link" href="index.html"><i class="fa fa-arrow-left"></i> Retour à l'accueil</a></li>
+            <li class="page-item"><a class="page-link" href="index.php"><i class="fa fa-arrow-left"></i> Retour à l'accueil</a></li>
           </ul>
         </nav>
 

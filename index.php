@@ -18,6 +18,12 @@ require(__DIR__.'/inc/template/header.tpl.php');
 
 //!nous affichons le bon template en fonction de la page demandée
 if($page === 'article') {
+    //!récupérons l'id de l'article demandé
+    $articleId = filter_input(INPUT_GET, 'id');
+
+    //!récupérons le bon article
+    //!$dataArticlesList est défini dans inc/data.php
+    $articleInstance = $dataArticlesList[$articleId];
     require(__DIR__.'/inc/template/article.page.php');
 }
 elseif($page === 'author') {

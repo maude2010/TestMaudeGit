@@ -142,6 +142,11 @@ git checkout master
 ##### Ne pas oublier que les propriété date et category sont privées. Il faut donc passer par des getter
 ### Merge dans master
 
+## Etape 5 page article
+
+### modification du fichier article.page.php
+
+
 
 
 
