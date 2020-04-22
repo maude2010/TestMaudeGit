@@ -12,10 +12,19 @@
     <div class="card">
         <h3 class="card-header">Catégories</h3>
         <ul class="list-group list-group-flush">
-        <li class="list-group-item">TeamBack</li>
-        <li class="list-group-item">TeamFront</li>
-        <li class="list-group-item">Collaboration</li>
-        <li class="list-group-item">Ma Vie De Dev</li>
+
+        <?php
+        //!pour toutes les catégories nous générons l'élément li qui va bien avec le bon lien et le bon libellé
+        foreach($dataCategoriesList as $categoryId => $categoryName) {
+            echo "
+            <li class=\"list-group-item\">
+                <a href=\"index.php?page=category&id={$categoryId}\">
+                    {$categoryName}
+                </a>
+            </li>";
+        }
+        ?>
+
         </ul>
     </div>
 

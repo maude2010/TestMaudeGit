@@ -146,13 +146,7 @@ git checkout master
 ### récupération du bon article via son id
 ### modification du fichier article.page.php
 
-
 ## Etape 6 dynamisation barre de nav
 
 
-
-
-
-
-
-
+## Etape 7 dynamisation des catégories dans le menu de droite
