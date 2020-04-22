@@ -53,6 +53,14 @@ C'est la même méthodologie que pour index.php. Mais cette fois ci il suffit d'
 
 ### Se placer dans la branche
 
+@todo
+
+
+
+## Etape 3 : afficher la bonne page en fonction de ce qui a été demandé dans l'url
+
+
+
 
 
 
