@@ -475,12 +475,38 @@ ___
 ___
 
 
-## Etape 7 dynamisation des auteurs dans le menu de droite
+## BONUS : Etape 7 dynamisation des auteurs dans le menu de droite
 
 
 ## Etape 8 Page Author
 ### Classe Author
-### Changer le tableau data et créer des instance de la classe Author
+Dans le fichier inc/classes/Author.php
+```php
+<?php
+
+class Author
+{
+    public $name;
+    public $pseudo;
+
+    public function __construct($name)
+    {
+        $this->name = $name;
+    }
+}
+
+```
+
+### Changer le tableau liste des auteurs dans data.php et créer des instance de la classe Author
 
 ### Corriger le menu author
+
+### Utiliser les id des auteurs au lieu des noms dans les articles
+
+### Coder la fonction getAuthorById
+
+### Coder les la fonction getArticlesAuthorById
+
+### Corriger les templates
+
 
